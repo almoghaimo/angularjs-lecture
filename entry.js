@@ -1,6 +1,6 @@
 import angular from 'angular';
 
-const entry = angular.module('app', ['helloModule']);
+const entry = angular.module('app', []);
 
 function createDirective(name){
   return function(){
