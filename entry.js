@@ -11,7 +11,6 @@ function createDirective(name){
         console.log(`${name} : compile `);
         return {
           pre: function(scope, iElem, iAttrs){
-            scope.name2 = 'pre link';
             console.log(`${name} : pre link `);
           },
           post: function(scope, iElem, iAttrs) {
