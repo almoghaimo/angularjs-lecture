@@ -6,6 +6,15 @@ class ReactHello extends Component {
         console.log(props);
     }
 
+    componentDidMount() {
+        console.log("componentDidMount", this.props);
+    }
+
+    componentDidUpdate(prevProps, props) {
+        console.log("almog prevProps: ", prevProps);
+        console.log("almog props: ", props);
+    }
+
     render() {
         const {message, onMessageChange} = this.props;
 
