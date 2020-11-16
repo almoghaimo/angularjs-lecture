@@ -7,7 +7,7 @@ function createDirective(name){
     return {
       restrict: 'E',
       compile: function(tElem, tAttrs){
-        // In AngularJS the original DOM is often referred to as the the template element, which stands for template element.
+        // In AngularJS the original DOM is often referred to as the template element, which stands for template element.
         console.log(`${name} : compile `);
         return {
           pre: function(scope, iElem, iAttrs){
