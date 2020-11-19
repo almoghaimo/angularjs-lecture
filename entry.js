@@ -14,6 +14,7 @@ function createDirective(name){
             console.log(`${name} : pre link ${iElem.html()}`);
           },
           post: function(scope, iElem, iAttrs) {
+            scope.name = "stage2";
             console.log(`${name} : post link ${iElem.html()}`);
           }
         };
