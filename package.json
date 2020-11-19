@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "webpack-serve --port 9990 --open"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.3",
+    "@babel/preset-react": "7.0.0",
+    "@types/angular": "1.6.53",
+    "babel-loader": "8.0.5",
+    "webpack": "4.28.1",
+    "webpack-cli": "3.2.1",
+    "webpack-serve": "2.0.3"
+  },
+  "dependencies": {
+    "angular": "1.5.5",
+    "react": "15.3.0",
+    "react-dom": "15.3.0",
+    "react2angular": "4.0.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "version": "0.1.0",
+    "command": "explorer",    
+    "osx": {
+        "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    },
+    "args": [
+        "index.html"
+    ],
+    "problemMatchers": []
+}
